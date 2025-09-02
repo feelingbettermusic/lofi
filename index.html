@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Feeling Better Music</title>
+  <style>
+    :root { --max-width:1400px }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 24px;
+      background: #2e3e91;
+      color: #fff;
+    }
+    .container { width: 100%; max-width: var(--max-width) }
+    .logo {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 600px;
+      width: 80%;
+      height: auto;
+    }
+    h1 {
+      font-size: clamp(20px, 3.2vw, 28px);
+      text-align: center;
+      margin: 6px 0 18px;
+    }
+    .tracks {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+      gap: 28px;
+      margin-bottom: 18px;
+      justify-items: center;
+    }
+    .track-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .embed-wrap {
+      width: 350px;
+      height: 442px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .embed-wrap iframe { width: 350px; height: 442px; border: 0 }
+    footer {
+      opacity: 0.85;
+      font-size: 13px;
+      text-align: center;
+      margin-top: 18px;
+    }
+    @media (max-width:520px) {
+      .embed-wrap { width: 100%; height: auto }
+      .embed-wrap iframe { width: 100%; height: 442px }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Logo -->
+    <img class="logo" src="https://cdn.discordapp.com/attachments/764246233203343380/1412405751019999232/LOGO_FEELING_BETTER_WEB.png?ex=68b82cdc&is=68b6db5c&hm=054f505181915c99f73000106a2bc25d2785c79f1e02311d6bd9d650854e0189" alt="Feeling Better Logo" />
+
+    <!-- Sezione tracce -->
+    <section id="tracks" class="tracks">
+
+      <!-- Traccia 1 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=851438345/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/found-you">Found You by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 2 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=686996252/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/winter-haze">Winter Haze by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 3 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1057304069/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/stay-close">Stay Close by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 4 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1627380832/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/silhouette">Silhouette by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 5 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1408636609/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/blue-moon">Blue Moon by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 6 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=634146933/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/echoes">Echoes by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 7 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1197921208/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/wide-awake">Wide Awake by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 8 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2154533371/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/little-moments">Little Moments by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 9 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1597398482/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/ocean-breeze">Ocean Breeze by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 10 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2634537909/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/tell-me">Tell Me by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 11 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+        <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2499065396/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/golden-hour">Golden Hour by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 12 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+        <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2043671890/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/sweet-relief">Sweet Relief by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 13 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=4222575046/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/gradient">Gradient by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 14 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=4059459902/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/landscape">Landscape by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 15 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2304578825/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/emotions">Emotions by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 16 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=142652145/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/just-chillin">Just Chillin&#39; by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 17 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+        <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2160513400/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/track/far-away">Far Away by Feeling Better</a></iframe>
+        </div>
+      </div>
+
+      <!-- Traccia 18 -->
+      <div class="track-card">
+        <div class="embed-wrap">
+          <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=534112510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://feelingbettermusic.bandcamp.com/album/early-morning">Early Morning by Feeling Better</a></iframe>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      Bleu Rocher Music 2025
+    </footer>
+  </div>
+</body>
+</html>
